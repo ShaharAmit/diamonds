@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    padding-top: 5%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+.clear {
+    clear: both;
+}
+
+main {
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    padding-top: 40px;
+    width: 120vw;
+    height: 25vw;
+    text-align: left;
+}
+
+.container > section {
+    top: 20%;
+    width: 20vw;
+    height: 25vw;
+    background: no-repeat center center;
+    background-size: 90%;
+    position: relative;
+    display: inline-block;
+    left: -10vw !important;
+}
+
+#right {
+    float: right;
+    margin-top: 20px;
+}
+
+#left {
+    float: left;
+    margin-top: 20px;
+    transform: rotate(180deg);
+
+}
+
+#diamomdDesc {
+    text-align: center;
+    display: inline-block;
+    width: 50vw;
+}
+
+button {
+    width: 10vw;
+    height: 2vw;
+    border: none;
+    background: url('https://ion.r2net.com/images/amazingHomepage/Arrow.svg') center center no-repeat;
+    background-size: 90%;
+    border: none;
+    outline: none;
+}
+
+#shape {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#desc {
+    font-size: 0.8em;
+}
